@@ -412,8 +412,8 @@ ul.row {
 
 .header-container {
 	display: flex;
-    align-items: center;
 	justify-content: space-between;
+	align-items: center;
 }
 
 /* Footer
@@ -501,7 +501,7 @@ ul.row {
 
 .section-hero {
 	position: relative;
-    margin-top: -8.5rem;
+	margin-top: -8.5rem;
 }
 
 .hero-homepage {
@@ -512,12 +512,12 @@ ul.row {
 }
 
 .section-hero .section-body {
-    padding: 10rem 4rem;
+	padding: 10rem 4rem;
 }
 
 .section-hero .section-category {
-    color: var(--color-white);
-    text-transform: uppercase;
+	color: var(--color-white);
+	text-transform: uppercase;
 }
 
 .section-hero .section-title {
@@ -526,10 +526,10 @@ ul.row {
 
 .section-hero .section-inner {
 	display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    min-height: 50vh;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	min-height: 50vh;
 }
 
 /* Section Latest news ============================= */
@@ -541,10 +541,10 @@ ul.row {
 .section-services .row {
 	flex-wrap: wrap;
 }
-/* Section ABOUT US ============================= */
 
+/* Section ABOUT US ============================= */
 .section-about-us [class^="col-"] {
-    align-self: center;
+	align-self: center;
 }
 
 /*** 4. CARD ***/
@@ -678,7 +678,7 @@ ul.row {
 /*** ARTICLE PAGE ***/
 /* Section HERO (article)
     ============================= */
-.hero-articles {
+.hero-article {
 	background-size: 150rem 100rem;
 	background-position: 50% 0;
 }
